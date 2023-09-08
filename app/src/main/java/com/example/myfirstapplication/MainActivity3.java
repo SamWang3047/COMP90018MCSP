@@ -33,4 +33,11 @@ public class MainActivity3 extends AppCompatActivity {
         }
 
     }
+    public void goAcce(View view) {
+        startActivity(new Intent(this, accelerometer_main.class));
+    }
+
+    public void goPressure(View view) {
+        startActivity(new Intent(this, pressure.class));
+    }
 }

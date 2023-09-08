@@ -27,7 +27,7 @@
             android:text="Login Page" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="57dp"
             android:layout_alignParentStart="true"
@@ -40,6 +40,36 @@
             android:layout_marginBottom="80dp"
             android:onClick="goBack"
             android:text="Go Back" />
+
+        <Button
+            android:id="@+id/accelerate"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="661dp"
+            android:layout_marginEnd="141dp"
+            android:layout_marginBottom="17dp"
+            android:onClick="goAcce"
+            android:text="Accelerometer" />
+
+        <Button
+            android:id="@+id/pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="274dp"
+            android:layout_marginTop="660dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="18dp"
+            android:onClick="goPressure"
+            android:text="Pressure" />
 
         <ImageView
             android:id="@+id/imageView2"
