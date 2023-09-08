@@ -20,4 +20,8 @@ public class MainActivity2 extends AppCompatActivity {
 
         super.onBackPressed();
     }
+
+    public void nextPage(View view) {
+        startActivity(new Intent(this, MainActivity3.class));
+    }
 }
